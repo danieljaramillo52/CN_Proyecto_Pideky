@@ -4,5 +4,6 @@
 *__pycache__/
 *.zip
 !python-3.12.5-emb.zip
+!Plantilla_Filtros.xlsx
 python-3.12.5-emb/
 Automatizaciones Pideky/
