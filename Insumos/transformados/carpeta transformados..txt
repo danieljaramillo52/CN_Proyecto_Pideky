@@ -1,0 +1,8 @@
+carpeta transformados.
+
+
+En caso de utilizar el archivo : conversor_inusmos.bat
+
+Mover los archivos .csv de vtas a la carpeta "maestra_vtas"
+
+Mover el archivo de maestra de clientes .csv a la carpeta "maestra_clientes"

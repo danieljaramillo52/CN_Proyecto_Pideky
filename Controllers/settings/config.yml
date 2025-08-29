@@ -1,0 +1,84 @@
+
+
+# Configuración base de la aplicación.
+
+cnf_mensajes:
+  msg_vtas_procesadas: "Archivos de ventas procesados correctamente ✅"
+  msg_vtas_procesando: "🔄 Cargando archivos de ventas (redes de negocio) ..."
+  msg_base_clientes_procesando: "🔄 Cargando maestra de clientes ..."
+  msg_base_plantilla_filtros_procesando: "🔄 Cargando plantilla con filtros ..."
+  msg_base_clientes_procesada: "Maestra de cientes procesada correctamente ✅"
+  msg_base_plantilla_filtros_procesada: "Plantilla de filtros procesada correctamente ✅"
+  msg_procesando_información: "🔄 Procesando información..."
+  msg_df_para_filtrar: "⚠️ No hay dataframe consolidado para filtrar."
+  msg_formato_procesado: "✅ Formato procesado. Cargando filtros…"
+  msg_procesando_insm: "🔄 Procesando insumos..."
+  msg_filtros_dinámicos: "🔍 Filtros dinámicos"
+  msg_vista_previa_resultado: "📊 Resultado filtrado (vista-previa)"
+
+config_insumos:
+  path_insumos_vtas: "Insumos/maestra_vtas"
+  path_insumos_clientes: "Insumos/maestra_clientes"
+  path_insumos_plantilla_filtros: "Insumos/plantilla_filtros"
+  dict_rename_df_vtas: 
+    "Cod Agente Comercial" : "Cod Jefe/AC"
+    "Nom Agente Comercial" : "Nom Jefe/AC"
+    "Cod Jefe de Ventas" : "Cod Jefe/AC"
+    "Nom Jefe de Ventas" : "Nom Jefe/AC"
+
+  plantilla_filtros:
+    path_plantilla: "Insumos/plantilla_filtros/"
+    nom_base: "Plantilla_Filtros.xlsx"
+    nom_hoja: "Hoja1"
+
+  cnf_botones:
+    confirmar_insumos:
+      clave: "btn_confirmar_insumos"
+      etiqueta: "Confirmar insumos"
+      usar_sidebar: false
+      auto_render: True
+
+    descargar_csv:
+      clave: "btn_descargar_csv"
+      etiqueta: "⬇️ Descargar CSV"
+      usar_sidebar: false
+      file_name: "resultado.csv"
+      mime: "text/csv"
+
+config_cols:
+  ventas:
+    col_modelo: "Modelo de atención"
+    valor_directa: "Directa"
+    claves_numericas:
+      - "Venta act $"
+      - "Venta act Und"
+      - "Venta act kg"
+    col_jefe_ac: "Cod Jefe/AC"
+    col_cliente: "Cod Cliente"
+
+  clientes:
+    col_modelo: "MODELO"
+    cols_directa:
+      - "CCUP"
+      - "CODIGO_ERP"
+    cols_indirecta:
+      - "CCUP"
+      - "CODIGO_ERP"
+      - "COD_AC"
+      - "COD_CRM"
+
+  cols_archivo_nulos:
+    - "Cod Cliente"
+    - "CCUP"
+    - "CODIGO_ERP"
+    - "Cod Jefe/AC"
+    - "Modelo de atención"
+    - "Red Comercial"
+
+  nombre_archivo_salida:
+    Resultados/clientes_sin_ccup.xlsx
+
+
+Resultados:
+  path_resultado: "Resultados\\"
+

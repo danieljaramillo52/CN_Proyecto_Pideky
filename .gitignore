@@ -1,0 +1,8 @@
+.vscode/
+*.xlsx
+*.csv
+*__pycache__/
+*.zip
+!python-3.12.5-emb.zip
+python-3.12.5-emb/
+Automatizaciones Pideky/

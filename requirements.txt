@@ -1,0 +1,17 @@
+attrs==25.3.0
+et_xmlfile==2.0.0
+jsonschema==4.25.0
+jsonschema-specifications==2025.4.1
+loguru==0.7.3
+lxml==6.0.0
+narwhals==2.0.1
+openpyxl==3.1.2
+pywin32==311
+PyYAML==6.0.1
+referencing==0.36.2
+rpds-py==0.26.0
+setuptools==80.9.0
+six==1.17.0
+st_file_uploader==0.2.2
+streamlit==1.45.1
+xlsx2csv==0.8.4

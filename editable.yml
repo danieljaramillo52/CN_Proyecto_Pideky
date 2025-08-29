@@ -1,0 +1,41 @@
+# Numericas (sum)
+columnas_finales_agrupación:
+  group:
+    - "CCUP"
+    - "Modelo de atención"
+    - "CODIGO_ERP"
+  sum:
+    - "Venta act $"
+    - "Venta act Und"
+    - "Venta act kg"
+
+# Lista de columnas disponibles. 
+# Para agrupar.
+  # - "Año/Mes - Clave"
+  # - "Canal"
+  # - "Categoría"
+  # - "Cod Cliente"
+  # - "Cod Jefe/AC"
+  # - "Cod Material"
+  # - "Consulta"
+  # - "Desc Material"
+  # - "Factura"
+  # - "Fecha"
+  # - "Línea"
+  # - "Marca"
+  # - "MesCliente"
+  # - "Modelo de atención"
+  # - "Municipio"
+  # - "Nit"
+  # - "Nom Cliente"
+  # - "Nom Jefe/AC"
+  # - "Nombre Comercial"
+  # - "Oficina de ventas"
+  # - "Red Comercial"
+  # - "Región"
+  # - "Sector"
+  # - "Segmento"
+  # - "Sub Canal"
+  # - "Sub Categoría"
+  # - "CCUP"
+  # - "CODIGO_ERP"
