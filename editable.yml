@@ -39,3 +39,8 @@ columnas_finales_agrupación:
   # - "Sub Categoría"
   # - "CCUP"
   # - "CODIGO_ERP"
+
+# Para sumar: 
+  # - "Venta act $"
+  # - "Venta act Und"
+  # - "Venta act kg"

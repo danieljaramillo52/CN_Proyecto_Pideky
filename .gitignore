@@ -5,5 +5,7 @@
 *.zip
 !python-3.12.5-emb.zip
 !Plantilla_Filtros.xlsx
+!plantilla_estructuras_ventas_pideky.xlsx
+!plantilla_maestra_clientes_pideky.xlsx
 python-3.12.5-emb/
 Automatizaciones Pideky/
