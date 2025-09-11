@@ -41,7 +41,7 @@ if __name__ == "__main__":
     
     rutas_completas = rutas_arc_vtas + rutas_maestra_clientes
     
-for cada_path in rutas_arc_vtas:
+for cada_path in rutas_completas:
     logger.info(f"Procesando: {cada_path[25:]}")
     xlsx = cada_path
     export_sheets_with_filename(xlsx_path=xlsx, outdir=r"Insumos/transformados")
